@@ -33,6 +33,7 @@ namespace RPGM.Gameplay
         float startTime;
         float distance;
         float velocity;
+        float AnimSpeed;
 
         void IdleState()
         {

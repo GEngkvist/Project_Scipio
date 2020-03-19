@@ -7,29 +7,40 @@ using UnityEngine.U2D;
 
 public class Enemy : MonoBehaviour
 {
-    public int health;
-    public float speed;
+    public Animator animator;
 
-    private Animator anim;
+    public int maxHealth = 100;
+    int currentHealth;
 
-    // Start is called before the first frame update
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        currentHealth = maxHealth;
     }
 
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        Debug.Log("Damage TAKEN!");
+        currentHealth -= damage;
+
+        animator.SetTrigger("Hurt");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+       
+    void Die()  
+    {
+        Debug.Log("Enemy Died!");
+
+        animator.SetBool("IsDead", true);
+
+        Behaviour bhvr = (Behaviour)this;
+        Behaviour bhvr2 = (Behaviour)GetComponent<Collider2D>();
+
+        bhvr2.enabled = false;
+        bhvr.enabled = false;
     }
 }
