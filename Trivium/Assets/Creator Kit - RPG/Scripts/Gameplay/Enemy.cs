@@ -15,8 +15,9 @@ public class Enemy : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
-
-
+    SpriteRenderer spriteRenderer;
+    Vector2 currentVelocity;
+    public float acceleration = 2;
 
     void Start()
     {
@@ -48,12 +49,15 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         moveCharacter(movement);
     }
 
     void moveCharacter(Vector2 direction)
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
+        rb.velocity = Vector2.SmoothDamp(rb.velocity, direction * moveSpeed, ref currentVelocity, acceleration, moveSpeed);
+        spriteRenderer.flipX = rb.velocity.x >= 0 ? true : false;
     }
     void Die()  
     {
@@ -63,7 +67,7 @@ public class Enemy : MonoBehaviour
 
         Behaviour bhvr = (Behaviour)this;
         Behaviour bhvr2 = (Behaviour)GetComponent<Collider2D>();
-
+        rb.velocity = Vector2.zero;
         bhvr2.enabled = false;
         bhvr.enabled = false;
     }
