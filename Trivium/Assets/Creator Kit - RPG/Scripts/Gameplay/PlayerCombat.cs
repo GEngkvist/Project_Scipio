@@ -14,6 +14,8 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
     public int attackDamage = 40;
 
+    public static float time = 2;
+    public static float timer = time;
 
     void Update()
     {
@@ -21,6 +23,7 @@ public class PlayerCombat : MonoBehaviour
         {
             Attack();
         }
+       
     }
 
     void Attack()
