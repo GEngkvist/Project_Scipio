@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using RPGM.Gameplay;
 using UnityEngine.U2D;
+using System.Threading.Tasks;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -16,6 +17,14 @@ public class PlayerCombat : MonoBehaviour
 
     public static float time = 2;
     public static float timer = time;
+
+    public int maxHealth = 200;
+    public int currentHealth;
+    
+    void Start()
+    {
+        currentHealth = maxHealth;
+    }
 
     void Update()
     {
@@ -50,6 +59,36 @@ public class PlayerCombat : MonoBehaviour
         }
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        animator.SetTrigger("Hurt");
+
+        if (currentHealth <= 0)
+        {
+            gameObject.layer = 0;
+            Die();
+        }
+    }
+
+    async void Die()
+    {
+        Debug.Log("Enemy Died!");
+
+        animator.SetTrigger("Death");
+        animator.SetTrigger("Recover");
+        await Task.Delay(2000);
+        gameObject.layer = 10;
+        currentHealth = maxHealth;
+    }
+
+    async Task UseDelay()
+    {
+        await Task.Delay(2000); //wait for one second
+    }
+
 
 
 
