@@ -16,17 +16,29 @@ EditorBuildSettings:
     guid: 2e949c68a2a4ac443bf8b9988910a245
   - enabled: 1
     path: Assets/Creator Kit - RPG/Scenes/Town Scene.unity
-    guid: 52b3474958c6e094c858dcb98d04e489
+    guid: 6352000bce9033841beccfd3331adf2f
   - enabled: 1
     path: Assets/Creator Kit - RPG/Scenes/Town.unity
     guid: 2ea7383a0a8af431080e0aa251ee7115
   - enabled: 1
+    path: Assets/Creator Kit - RPG/Scenes/Mountain Scene.unity
+    guid: 6a0fedb50e9cc764faff6993e1fdf08e
+  - enabled: 1
     path: Assets/Creator Kit - RPG/Scenes/1. Mountain.unity
     guid: 29c1e4c05f9d82340af21b3d64c436bc
+  - enabled: 1
+    path: Assets/Creator Kit - RPG/Scenes/Forest Scene.unity
+    guid: 4d96fba5720c7974cbacd29cde31d5a8
   - enabled: 1
     path: Assets/Creator Kit - RPG/Scenes/2. Forest.unity
     guid: 4901ccdda8e6951438c24e445e57ed3c
   - enabled: 1
+    path: Assets/Creator Kit - RPG/Scenes/Castle Scene.unity
+    guid: 78918e8025cdb3540810aec22da60b77
+  - enabled: 1
     path: Assets/Creator Kit - RPG/Scenes/3. Castle.unity
     guid: df404770ca518be40af861abedd0e56c
+  - enabled: 1
+    path: Assets/Creator Kit - RPG/Scenes/End Scene.unity
+    guid: 4ba0f48ffae136d43893ee14a2a9aa16
   m_configObjects: {}

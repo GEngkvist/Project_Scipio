@@ -14,4 +14,24 @@ public class Cutscene_text : MonoBehaviour
     {
         SceneManager.LoadScene("Town");
     }
+
+    public void MountainLevel()
+    {
+        SceneManager.LoadScene("1. Mountain");
+    }
+
+    public void ForestLevel()
+    {
+        SceneManager.LoadScene("2. Forest");
+    }
+
+    public void CastleLevel()
+    {
+        SceneManager.LoadScene("3. Castle");
+    }
+
+    public void MenueLevel()
+    {
+        SceneManager.LoadScene("Menue");
+    }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using RPGM.Gameplay;
 using UnityEngine.U2D;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class Enemy : MonoBehaviour
     public int attackDamage = 40;
     Vector3 direction;
     float TimeForAttack, Cooldown;
+    public string levelName;
 
     void Start()
     {
@@ -49,6 +51,12 @@ public class Enemy : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+
+            if (gameObject.name == "Boss")
+            {
+                SceneManager.LoadScene(levelName);
+            }
+
         }
     }
 
