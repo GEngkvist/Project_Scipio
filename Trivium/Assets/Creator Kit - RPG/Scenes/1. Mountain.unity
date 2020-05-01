@@ -69418,6 +69418,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 1541447054}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &403749669
 Rigidbody2D:
   serializedVersion: 4
@@ -69482,6 +69483,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 1471656204}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &426824352
 Rigidbody2D:
   serializedVersion: 4
@@ -71456,6 +71458,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 1607093685}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &646068795
 Rigidbody2D:
   serializedVersion: 4
@@ -71871,6 +71874,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 106754314}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &1050258069
 Rigidbody2D:
   serializedVersion: 4
@@ -71935,6 +71939,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 1153608270}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &1060617125
 Rigidbody2D:
   serializedVersion: 4
@@ -72427,6 +72432,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 568519295}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &1193398428
 Rigidbody2D:
   serializedVersion: 4
@@ -72491,6 +72497,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 1738291995}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &1202653053
 Rigidbody2D:
   serializedVersion: 4
@@ -72648,6 +72655,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 84679380}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &1354449392
 Rigidbody2D:
   serializedVersion: 4
@@ -72757,6 +72765,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3534774729685244126, guid: d96c0846c7d644f72bfbf301de1def5c,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: cc27e10afc2f7644c9094c8f91536337, type: 3}
     - target: {fileID: 7948309521016487140, guid: d96c0846c7d644f72bfbf301de1def5c,
         type: 3}
       propertyPath: batches.Array.data[0].sceneParent
@@ -73984,6 +73997,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 125412281}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &1940102712
 Rigidbody2D:
   serializedVersion: 4
@@ -74085,7 +74099,7 @@ PrefabInstance:
     - target: {fileID: 1481126516830738366, guid: ab3f7178010354d87a5016c7d6b23a5a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.250076
+      value: -4.551111
       objectReference: {fileID: 0}
     - target: {fileID: 1481126516830738366, guid: ab3f7178010354d87a5016c7d6b23a5a,
         type: 3}
@@ -74433,6 +74447,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 477458055}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &2063443820
 Rigidbody2D:
   serializedVersion: 4
@@ -74696,6 +74711,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 1192861630}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &2134398620
 Rigidbody2D:
   serializedVersion: 4
@@ -74733,7 +74749,7 @@ PrefabInstance:
     - target: {fileID: 2950804947535917089, guid: 7c53998562858411aa85d8e0c4bc1333,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.300213
+      value: -12.743112
       objectReference: {fileID: 0}
     - target: {fileID: 2950804947535917089, guid: 7c53998562858411aa85d8e0c4bc1333,
         type: 3}

@@ -36171,7 +36171,7 @@ PrefabInstance:
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
       propertyPath: m_AnimatedTiles.Array.data[5].second.m_AnimationSpeed
-      value: 3
+      value: 3.0000002
       objectReference: {fileID: 0}
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
@@ -36347,7 +36347,7 @@ PrefabInstance:
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
       propertyPath: m_AnimatedTiles.Array.data[7].second.m_AnimationSpeed
-      value: 3.0000002
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
@@ -36953,7 +36953,7 @@ PrefabInstance:
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
       propertyPath: m_AnimatedTiles.Array.data[14].second.m_AnimationSpeed
-      value: 3
+      value: 3.0000002
       objectReference: {fileID: 0}
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
@@ -37931,7 +37931,7 @@ PrefabInstance:
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
       propertyPath: m_AnimatedTiles.Array.data[25].second.m_AnimationSpeed
-      value: 3.0000002
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
@@ -38371,7 +38371,7 @@ PrefabInstance:
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
       propertyPath: m_AnimatedTiles.Array.data[30].second.m_AnimationSpeed
-      value: 3.0000002
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7195864304880846418, guid: a6ecdc63374074e6eb42a738a5683a91,
         type: 3}
@@ -43690,6 +43690,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 373650990}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &166121650
 Rigidbody2D:
   serializedVersion: 4
@@ -44013,6 +44014,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 660264272}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &245003946
 Rigidbody2D:
   serializedVersion: 4
@@ -44251,6 +44253,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 940141666}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &276515289
 Rigidbody2D:
   serializedVersion: 4
@@ -48988,7 +48991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 420361715}
   attackPoint: {fileID: 1739196949}
-  attackRange: 0.95
+  attackRange: 1.14
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
@@ -49070,6 +49073,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 2122860555}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &493097347
 Rigidbody2D:
   serializedVersion: 4
@@ -56562,6 +56566,7 @@ MonoBehaviour:
   playerAttackRange: {fileID: 709196035}
   directAttackRange: 1
   attackDamage: 40
+  levelName: 
 --- !u!50 &1216658117
 Rigidbody2D:
   serializedVersion: 4
@@ -57091,6 +57096,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3534774729685244126, guid: d96c0846c7d644f72bfbf301de1def5c,
+        type: 3}
+      propertyPath: audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fa70a9a6c03c1624d8f74d629b92f082, type: 3}
     - target: {fileID: 7948309521016487140, guid: d96c0846c7d644f72bfbf301de1def5c,
         type: 3}
       propertyPath: batches.Array.data[0].sceneParent
@@ -57717,7 +57727,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739196948}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.157, y: 0.181, z: 1}
+  m_LocalPosition: {x: -0.074, y: 0.181, z: 1}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1781258411}

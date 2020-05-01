@@ -32,6 +32,6 @@ public class Cutscene_text : MonoBehaviour
 
     public void MenueLevel()
     {
-        SceneManager.LoadScene("Menue");
+        SceneManager.LoadScene("Menu");
     }
 }
