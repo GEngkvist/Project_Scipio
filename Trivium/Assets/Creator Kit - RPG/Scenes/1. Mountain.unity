@@ -71446,7 +71446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 646068800}
-  maxHealth: 100
+  maxHealth: 80
   player: {fileID: 1781258411}
   moveSpeed: 1.5
   acceleration: 2
@@ -72908,7 +72908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1563575452}
   attackPoint: {fileID: 305241008}
-  attackRange: 0.62
+  attackRange: 0.75
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
@@ -73985,7 +73985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1940102717}
-  maxHealth: 100
+  maxHealth: 80
   player: {fileID: 1781258411}
   moveSpeed: 1.5
   acceleration: 2
@@ -74544,17 +74544,17 @@ PrefabInstance:
     - target: {fileID: 8835582639856596521, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.25910366
+      value: 0.44229886
       objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596521, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.72141755
+      value: 0.77743715
       objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596521, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.16966337
+      value: -0.15765938
       objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596521, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
         type: 3}
@@ -74574,7 +74574,7 @@ PrefabInstance:
     - target: {fileID: 8835582639856596521, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.22085184
+      value: 0.21321867
       objectReference: {fileID: 0}
     - target: {fileID: 8835582639856596522, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
         type: 3}
@@ -74699,7 +74699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2134398625}
-  maxHealth: 100
+  maxHealth: 80
   player: {fileID: 1781258411}
   moveSpeed: 1.5
   acceleration: 2
