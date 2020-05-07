@@ -500,7 +500,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: After defeating the mercenarie's boss you found the stolen text in a room
+  m_Text: After defeating the mercenaries' boss you found the stolen text in a room
     with gold and treasures.
 --- !u!222 &337815577
 CanvasRenderer:
